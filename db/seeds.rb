@@ -9,9 +9,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 post_attributes = [
-  { title: "First Post", body: "today was a good day that I had a good time listening to music." },
-  { title: "Study Post", body: "time to get a dent into the study workload" },
-  { title: "Lovely Post", body: "what a beautiful and lovely person that person is" },
+  { title: "Once upon at time", body: "Today was a good day that I had a good time listening to music. This boy gave me a sandwich and said let's get a coffee. I thought it was coffeescript but here he gave a good cup of tea." },
+  { title: "Time to study", body: "time to get a dent into the study workload it has been a long time to keep on typing this here so that I enjoy making this post so great" },
+  { title: "This lovely day", body: "what a beautiful and lovely day it was today! I had a great time going to that place we went that time when you know what I can only explain it so much as this moment I am about to eat." },
 ]
 
 post_attributes.each do |attributes|
@@ -19,8 +19,8 @@ post_attributes.each do |attributes|
 end
 
 comment_attributes = [
-  { content: "that is great music skills", post_id: Post.first.id },
-  { content: "that sounds dull and need to work on other skills", post_id: Post.first.id },
+  { content: "wonderful page you have here!", post_id: Post.first.id },
+  { content: "you have a good heart", post_id: Post.first.id },
   { content: "This is the best!", post_id: Post.last.id },
 ]
 
